@@ -6,7 +6,7 @@ Token =os.environ.get("BOT_TOKEN",None)
 updater = Updater( Token ,use_context = True )
 
 def start(updater,context):
- updater.message.reply_text('''Hai {member.full_name} , \n\n`Iam a Simple Welcome Bot. Add me to your group and make me as admin.\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz) ''')
+ updater.message.reply_text('''Hai {member.full_name} , \n\n𝙸𝚊𝚖  𝚊  𝚂𝚒𝚖𝚙𝚕𝚎  𝚆𝚎𝚕𝚌𝚘𝚖𝚎  𝙱𝚘𝚝.  𝙰𝚍𝚍  𝚖𝚎  𝚝𝚘  𝚢𝚘𝚞𝚛  𝚐𝚛𝚘𝚞𝚙  𝚊𝚗𝚍  𝚖𝚊𝚔𝚎  𝚖𝚎  𝚊𝚜  𝚊𝚍𝚖𝚒𝚗\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz) ''')
 
 def help(updater,context):
  updater.message.reply_text("➠ `Add Me To Group`\n\nMake Admin Me\n\n👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [ʙx ʙᴏᴛᴢ](https://t.me/BX_Botz)")\
